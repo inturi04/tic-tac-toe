@@ -1,0 +1,47 @@
+.container{
+    text-align: center;
+}
+.title{
+    margin-top: 50px;
+    color: goldenrod;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.title span{
+    color: gold;
+    padding-left: 15px;
+}
+.reset {
+    width: 250px;
+    height: 100px;
+    border-color: burlywood;
+    outline: auto;
+    cursor: pointer;
+    border-radius: 50px;
+    background: gold;
+    font-size: 50px;
+    font: bold;
+    font-family: cursive;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.boxes{
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background-color: #1f3540(0, 255, 64, 0.747);
+    border: 4px solid;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.board{
+    height: 600px;
+    width: 564px;
+    display: flex;
+    margin: auto;
+}
